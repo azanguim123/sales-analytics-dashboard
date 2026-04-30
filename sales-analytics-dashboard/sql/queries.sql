@@ -3,7 +3,7 @@ SELECT SUM(sales) AS total_sales
 FROM sales;
 
 /* Total Profit */
-SELECT SUM(profit) AS totla_profit
+SELECT SUM(profit) AS total_profit
 FROM  sales;
 
 /* Top 10 des produits les plus vendu*/
