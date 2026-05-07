@@ -1,14 +1,104 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2299.77">
-  <style type="text/css">
-  </style>
-</head>
-<body>
-</body>
-</html>
+# 📊 Sales Analytics Dashboard
+
+## 🧠 Project Overview
+
+This project is a **Sales Analytics Dashboard** built using Python.
+It analyzes sales performance, profit, and customer behavior using an interactive dashboard.
+
+---
+
+## 🚀 Tools & Technologies
+
+* Python (Pandas, Matplotlib)
+* Streamlit (Interactive dashboard)
+* Data Cleaning & Analysis
+* Data Visualization
+
+---
+
+## 📂 Project Structure
+
+```
+project/
+│
+├── data/
+│   └── cleaned_superstore.csv
+│
+├── notebooks/
+│   └── analysis.ipynb
+│
+├── dashboard/
+│   └── app.py
+│
+└── README.md
+```
+
+---
+
+## 📊 Features
+
+* 📈 Sales over time analysis
+* 🏆 Top 10 products by sales
+* 🌍 Sales by region
+* 💰 Profit by category
+* 🎛️ Interactive filters (region, category)
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository:
+
+```
+git clone https://github.com/azanguim123/sales-analytics-dashboard
+
+```
+
+2. Navigate to the dashboard folder:
+
+```
+cd dashboard
+```
+
+3. Run the Streamlit app:
+
+```
+streamlit run app.py
+```
+
+---
+
+## 🧠 Key Insights
+
+* Identified top-performing products
+* Analyzed regional sales trends
+* Evaluated profitability across categories
+
+---
+
+## 💼 Skills Demonstrated
+
+* Data Analysis with Pandas
+* Data Visualization
+* Dashboard Development
+* Business Insights Extraction
+
+---
+
+## 📸 Dashboard Preview
+
+(Add screenshot here)
+
+---
+
+## 🎯 Future Improvements
+
+* Add interactive charts using Plotly
+* Deploy dashboard online
+* Add more advanced KPIs
+
+---
+
+## 👨‍💻 Author
+
+Larry Nelson Azanguim Ndongmo
