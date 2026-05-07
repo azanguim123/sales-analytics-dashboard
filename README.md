@@ -19,7 +19,7 @@ It analyzes sales performance, profit, and customer behavior using an interactiv
 ## 📂 Project Structure
 
 ```
-project/
+sales-analytics-dashboard/
 │
 ├── data/
 │   └── cleaned_superstore.csv
