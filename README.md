@@ -23,6 +23,7 @@ sales-analytics-dashboard/
 │
 ├── data/
 │   └── cleaned_superstore.csv
+|   superstore.csv
 │
 ├── notebooks/
 │   └── analysis.ipynb
