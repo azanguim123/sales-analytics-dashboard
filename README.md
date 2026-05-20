@@ -2,17 +2,22 @@
 
 ## 🧠 Project Overview
 
-This project is a **Sales Analytics Dashboard** built using Python.
-It analyzes sales performance, profit, and customer behavior using an interactive dashboard.
+This project is an end-to-end **Sales Analytics Dashboard** designed to analyze business performance and generate actionable insights.
+
+It covers the full data workflow:
+- Data cleaning & preparation
+- Exploratory Data Analysis (EDA)
+- SQL-based analysis
+- Interactive dashboard development
 
 ---
 
 ## 🚀 Tools & Technologies
 
-* Python (Pandas, Matplotlib)
-* Streamlit (Interactive dashboard)
-* Data Cleaning & Analysis
-* Data Visualization
+- **Python**: Pandas, Matplotlib
+- **SQL**: PostgreSQL (data storage & querying)
+- **Streamlit**: Interactive dashboard
+- **Git & GitHub**: Version control
 
 ---
 
@@ -23,10 +28,15 @@ sales-analytics-dashboard/
 │
 ├── data/
 │   └── cleaned_superstore.csv
-|   superstore.csv
+|   └──  superstore.csv
 │
 ├── notebooks/
 │   └── analysis.ipynb
+|
+|──sql/
+|   └── create_tables.sql
+|   └── import_data.sql
+|   └── analysis_queries.sql
 │
 ├── dashboard/
 │   └── app.py
@@ -46,26 +56,47 @@ sales-analytics-dashboard/
 
 ---
 
+## 📊 Key Business Insights
+
+- Identified high-revenue products and categories
+- Detected regional performance differences
+- Highlighted profitability variations across segments
+- Provided data-driven insights for decision-making
+
 ## ▶️ How to Run the Project
 
 1. Clone the repository:
 
 ```
 git clone https://github.com/azanguim123/sales-analytics-dashboard
+cd sales-analytics-dashboard
 
 ```
 
-2. Navigate to the dashboard folder:
+2. Install dependencies
+
+pip install -r requirements.txt
+
+```
+
+3. Run the dashboard
 
 ```
 cd dashboard
-```
-
-3. Run the Streamlit app:
-
-```
 streamlit run app.py
 ```
+
+---
+
+Database (PostgreSQL)
+
+The dataset is also stored in a PostgreSQL database (sales_db) for advanced querying.
+
+SQL scripts are available in the /sql folder:
+
+    * create_tables.sql
+    * import_data.sql
+    * analysis_queries.sql
 
 ---
 
@@ -79,24 +110,30 @@ streamlit run app.py
 
 ## 💼 Skills Demonstrated
 
-* Data Analysis with Pandas
+* Data Cleaning & Transformation
+* Exploratory Data Analysis (EDA)
+* SQL Data Analysis (aggregations, window functions)
 * Data Visualization
 * Dashboard Development
-* Business Insights Extraction
-
+* Business Insight Generation
 ---
 
 ## 📸 Dashboard Preview
 
-(Add screenshot here)
+<p align="center">
+  <img src="assets/dashboard1.png" width="800">
+  <img src="assets/dashboard2.png" width="800">
+  <img src="assets/dashboard3.png" width="800">
+</p>
 
 ---
 
 ## 🎯 Future Improvements
 
-* Add interactive charts using Plotly
-* Deploy dashboard online
-* Add more advanced KPIs
+* Add advanced KPIs (customer segmentation, retention)
+* Use Plotly for more interactive visualizations
+* Deploy dashboard online (Streamlit Cloud / Render)
+* Integrate real-time data sources
 
 ---
 
