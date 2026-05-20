@@ -1,0 +1,1 @@
+\copy sales FROM '/Users/user/sales-analytics-dashboard/data/cleaned_sales.csv' DELIMITER ',' CSV HEADER;
