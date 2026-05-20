@@ -120,11 +120,9 @@ SQL scripts are available in the /sql folder:
 
 ## 📸 Dashboard Preview
 
-<p align="center">
-  <img src="assets/dashboard1.png" width="800">
-  <img src="assets/dashboard2.png" width="800">
-  <img src="assets/dashboard3.png" width="800">
-</p>
+![Dashboard](assets/dashboard1.png)
+![Dashboard](assets/dashboard2.png)
+![Dashboard](assets/dashboard3.png)
 
 ---
 
