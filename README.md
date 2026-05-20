@@ -67,25 +67,20 @@ sales-analytics-dashboard/
 
 1. Clone the repository:
 
-```
+
 git clone https://github.com/azanguim123/sales-analytics-dashboard
 cd sales-analytics-dashboard
 
-```
 
 2. Install dependencies
 
 pip install -r requirements.txt
 
-```
 
 3.  Run the dashboard
 
-```
 cd dashboard
 streamlit run app.py
-
-```
 
 ---
 
@@ -121,7 +116,6 @@ SQL scripts are available in the /sql folder:
 
 ## 📸 Dashboard Preview
 
-assets[]
 <p align="center">
   <img src="assets/dashboard1.png" width="400"/>
   <img src="assets/dashboard2.png" width="400"/>
