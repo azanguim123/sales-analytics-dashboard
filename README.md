@@ -79,11 +79,12 @@ pip install -r requirements.txt
 
 ```
 
-3. Run the dashboard
+3.  Run the dashboard
 
 ```
 cd dashboard
 streamlit run app.py
+
 ```
 
 ---
@@ -120,10 +121,12 @@ SQL scripts are available in the /sql folder:
 
 ## 📸 Dashboard Preview
 
-![Dashboard](assets/dashboard1.png)
-![Dashboard](assets/dashboard2.png)
-![Dashboard](assets/dashboard3.png)
-
+assets[]
+<p align="center">
+  <img src="assets/dashboard1.png" width="400"/>
+  <img src="assets/dashboard2.png" width="400"/>
+  <img src="assets/dashboard3.png" width="400"/>
+</p>
 ---
 
 ## 🎯 Future Improvements
